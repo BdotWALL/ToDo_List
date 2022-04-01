@@ -18,8 +18,10 @@ button.addEventListener('click', function(){
 
 
 newItem.addEventListener('click', function (){
-    newItem.remove()
+  newItem.setAttribute('style','text-decoration:line-through') 
+  setTimeout(() =>{ 
+      newItem.remove() 
+  },1000)
 })
-
 })
  

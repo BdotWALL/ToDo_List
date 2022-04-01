@@ -11,7 +11,18 @@ body{
     padding-top:20px;    
   
 }
- 
+button{
+    color: gold;
+    background-color: black;
+    font-family: 'Brush Script MT', serif;
+    font-size: 30px;
+    border: 3px solid gold;
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale(1.1)
+}
+
 #tasks{
     display: inline-block;
     margin: auto;
@@ -45,4 +56,10 @@ ul{
     line-height: 50px;
     list-style-type: square;
     
+} 
+input{
+    margin-bottom: 20px;
+}
+img {
+    margin-top: 20px;
 }
